@@ -2,7 +2,17 @@
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        ceNight: '#222831',
+        ceDusk: '#31363F',
+        ceSeaFoam: '#76ABAE',
+        ceCloud: '#EEEEEE'
+      },
+      fontFamily: {
+        lilitaOne: ['Lilita One', 'sans-serif']
+      }
+    }
   },
   plugins: []
 };
